@@ -129,6 +129,7 @@ List Merge( List L1, List L2 )
         }
         ptr=ptr->Next;
         L2=p;
+        printf("*");
     }
     return head;
 }
